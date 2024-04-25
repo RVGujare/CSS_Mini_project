@@ -10,7 +10,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 final List<CipherData> ciphers = [
   CipherData(
-      image: "assets/level_1.jpg",
+      image: "assets/images/level_1.jpg",
       name: 'Caesar Cipher',
       ciphertext: 'XJHZWNYD',
       key: '5',
