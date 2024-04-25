@@ -37,7 +37,7 @@ class CipherDetailsScreen extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: const AssetImage("home_screen_2.png"),
+            image: const AssetImage("assets/images/home_screen_2.png"),
             fit: BoxFit.cover,
             colorFilter: ColorFilter.mode(
               Colors.white.withOpacity(0.1),
