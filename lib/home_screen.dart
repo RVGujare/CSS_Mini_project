@@ -10,35 +10,35 @@ import 'package:google_fonts/google_fonts.dart';
 
 final List<CipherData> ciphers = [
   CipherData(
-      image: "assets/level_1.jpg",
+      image: "level_1.jpg",
       name: 'Caesar Cipher',
       ciphertext: 'XJHZWNYD',
       key: '5',
       decryptionFunction: decryptCaesar,
       url: "https://www.javatpoint.com/caesar-cipher-technique"),
   CipherData(
-      image: "assets/level_2.png",
+      image: "level_2.png",
       name: 'Playfair Cipher',
       ciphertext: 'WHFEFGCMGDTW',
       key: 'MONEY',
       decryptionFunction: decryptPlayfair,
       url: "https://www.javatpoint.com/playfair-cipher-program-in-java"),
   CipherData(
-      image: "assets/level_3.png",
+      image: "level_3.png",
       name: 'Vigenère Cipher',
       ciphertext: 'GCYCZFMLYLEIM',
       key: 'AYUSH',
       decryptionFunction: decryptVigenere,
       url: "https://www.javatpoint.com/vigenere-cipher"),
   CipherData(
-      image: "assets/level_4.png",
+      image: "level_4.png",
       name: 'Vernam Cipher',
       ciphertext: 'HWQCYXOAOYD',
       key: 'MONEY',
       decryptionFunction: decryptVernam,
       url: "https://www.geeksforgeeks.org/vernam-cipher-in-cryptography/"),
   CipherData(
-      image: "assets/level_5.png",
+      image: "level_5.png",
       name: 'Rail Fence Cipher',
       ciphertext: 'TIETSHSSSCEMSAEIAREG',
       key: '3',
@@ -57,7 +57,7 @@ class HomeScreen extends StatelessWidget {
         body: Container(
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: const AssetImage("assets/home_screen_2.png"),
+              image: const AssetImage("home_screen_2.png"),
               fit: BoxFit.cover,
               colorFilter: ColorFilter.mode(
                 Colors.white.withOpacity(0.1),
