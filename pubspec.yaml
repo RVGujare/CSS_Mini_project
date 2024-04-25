@@ -24,7 +24,7 @@ dev_dependencies:
 
 flutter:
   assets:
-   - assets/
+   - public/assets/
   
   uses-material-design: true
 
